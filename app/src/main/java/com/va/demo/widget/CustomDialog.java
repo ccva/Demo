@@ -52,20 +52,4 @@ public class CustomDialog extends Dialog {
         window.setAttributes(attributes);
     }
 
-    public static class Builder {
-        private Paraments p;
-        private Context mContext;
-    }
-
-
-    class Paraments {
-        public int titleSize;
-        public int optionTextSize;
-        public String title;
-        public int titleColor;
-        public boolean cancelable;
-//        public List<Option> mOptions;
-
-    }
-
 }
